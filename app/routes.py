@@ -1,0 +1,6 @@
+from app import app
+
+@app.get('/')
+@app.get('/index')
+def index():
+    return "Hello world"
